@@ -13,7 +13,7 @@ def insertion_sort(A):
 
 a = []
 for i in range(1, 101):
-    a.append(int(random.random()*10000))
+    a.append(int(random.random()*10001))
 
 begin = time.time()
 insertion_sort(a)
